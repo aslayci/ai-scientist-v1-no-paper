@@ -56,7 +56,8 @@ def parse_arguments():
         "--writeup",
         type=str,
         default="latex",
-        choices=["latex"],
+        choices=["latex", "none"],
+        #choices=["latex"],
         help="What format to use for writeup",
     )
     parser.add_argument(
