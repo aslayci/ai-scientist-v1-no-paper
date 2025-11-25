@@ -115,8 +115,8 @@ def check_latex_dependencies():
             missing_deps.append(dep)
     
     if missing_deps:
-        print("Error: Required LaTeX dependencies not found:", file=sys.stderr)
-        return False
+        print("Error: Required LaTeX dependencies not found but Cigdem told me to ignore the latex dependencies :) ", file=sys.stderr)
+        #return False
     
     return True
     
